@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pinyon+Script|Rochester');
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    display: table;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.middleContent > img {
+    /* Display them as inline-blocks; */
+    display: inline-block;
+    width:37%;
+    height:auto;
+}
+
+#logo_bi {
+    width:20%;
+}
+
+.container {
+    border: 20px solid rgba(177, 49, 49, 0.842);
+    width: 750px;
+    height: 563px;
+    display: table-cell;
+    vertical-align: middle;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    background-image: url('./images/ru_background1.jpg');
+}
+
+.logo {
+    color: rgba(177, 49, 49, 0.842);
+    font-size: 30px;
+}
+
+.marquee {
+    color: tan;
+    font-size: 48px;
+    margin: 20px;
+}
+.assignment {
+    margin: 20px;
+    font-size: 15px;
+}
+.person {
+    border-bottom: 2px solid black;
+    font-size: 45px;
+    font-family: 'Pinyon Script', cursive;
+    margin: 20px auto;
+    width: 400px;
+    font-weight: bold;
+}
+
+.id {
+    display:inline-block; 
+    padding:0px; 
+    margin:0px;
+    border: 0;
+    font-size: 20px;
+}
+.reason {
+    margin: 20px;
+    font-size: 18px;
+}
