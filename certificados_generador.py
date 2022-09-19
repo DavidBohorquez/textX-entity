@@ -32,11 +32,13 @@ def main(debug=False):
     lista_certificados = [x.split(",") for x in open("certificados.txt").readlines()]
     #print(lista_certificados)
 
+    cont = 1;
     for entity in lista_certificados:
         # For each entity generate java file
         with open(join(srcgen_folder,
                        "%s.html" % entity[0].capitalize()), 'w') as f:
-            f.write(template.render(entity=entity))
+            f.write(template.render(entity=entity,cont=cont))
+        cont+=1;
     
     # html2pdf
     html_path=f'./certificados_generados/{entity[0].capitalize()}.html'
