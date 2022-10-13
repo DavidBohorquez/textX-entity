@@ -29,14 +29,14 @@ def main(debug=False):
     # Load template
     template = jinja_env.get_template('certificado.template')
 
-    lista_certificados = [x.split(",") for x in open("certificados.txt").readlines()]
+    lista_certificados = [x.split(",") for x in open("certificados1.txt",encoding='utf-8-sig').readlines()]
     #print(lista_certificados)
 
     cont = 1;
     for entity in lista_certificados:
         # For each entity generate java file
         with open(join(srcgen_folder,
-                       "%s.html" % entity[0].capitalize()), 'w') as f:
+                       "%i %s.html" % (cont, entity[0].capitalize())), 'w') as f:
             f.write(template.render(entity=entity,cont=cont))
         cont+=1;
     
