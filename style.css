@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Pinyon+Script|Rochester');
 
 body, html {
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
@@ -21,11 +21,15 @@ body {
 }
 
 #logo_bi {
-    width:18%;
+    width:16%;
 }
 
 #logo_pdi {
-    width:30%;
+    width:28%;
+}
+
+#logo_ud {
+  width:28%;
 }
 
 .signature {
@@ -35,33 +39,35 @@ body {
     /*border: 1px solid;*/
     position: absolute;
     top: -11px;
-    right: 52px;
+    right: 58px;
 }
 
 .signature1 {
   margin: 0px;
   padding: 0px;
-  width: 22%;
+  width: 45%;
   opacity: 0.9;
   /*border: 1px solid;*/
   position: absolute;
-  top: -21px;
-  right: 111px;
+  top: -24px;
+  right: 85px;
 }
 
 .container {
-    border: 20px solid rgb(205, 71, 35);
+    /*border: 20px solid rgb(205, 71, 35);*/
+    border: 20px solid rgb(0,0,0);
     width: 750px;
     height: 563px;
     display: table-cell;
     vertical-align: middle;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
-    background-image: url('./images/ru_background2.jpg');
-    background-position: -15px -80px;
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, .5);*/
+    background-image: url('./images/ru_background4.jpg');
+    background-position: -40px -80px;
 }
 
 .logo {
-    color: rgb(205, 71, 35);/*rgba(177, 49, 49, 0.842)*/
+    /*color: rgb(205, 71, 35);/*rgba(177, 49, 49, 0.842)*/
+    color:rgba(0, 0, 0, 0.842);
     font-size: 30px;
 }
 

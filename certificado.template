@@ -4,7 +4,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </head>
     <body>
-        <div class="container" style="width:875px;">
+        <div class="container" style="width:970px;">
 
             <!--<div class="middleContent">
             <img src="../images/logo.jpeg" alt="Flowers in Chania">
@@ -12,7 +12,7 @@
             </div>-->
 
             <div class="logo">
-                Centro de Bienestar Institucional de la Universidad Distrital Francisco José de Caldas
+                REPÚBLICA DE COLOMBIA <br> UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS
             </div>
 
             <!--<div class="marquee">
@@ -20,7 +20,9 @@
             </div>-->
 
             <div class="assignment">
-                CERTIFICA QUE
+                La RESOLUCIÓN NO. 01 DEL 08 DE SEPTIEMBRE DE 2022  "Por medio de la cual se otorga la acreditación para impartir Programas Educativos en <br>
+                Economía Solidaria conforme a lo establecido en la resolución No. 152 de 2022 emitida por la UAESP".<br>
+                CERTIFICA QUE:
             </div>
 
             <div class="person">
@@ -32,7 +34,7 @@
             </div>
 
             <div class="reason">
-                Participó como <strong>Asistente</strong> en el "Seminario sobre Centros de Escritura: Reflexiones sobre sus Acciones", celebrado los días 26, 27, 28 y 29 de septiembre del 2022 en Bogotá, Colombia.
+                PARTICIPÓ EN LA FORMACIÓN EN {{title}} {{period}}.
             </div>
 
 
@@ -51,10 +53,10 @@
                         </div>
                         <div class="col-xs-4 pm-certified col-xs-4 text-center">
                             <!--<span class="pm-credits-text block sans">Date Completed</span>-->
-                            <span><img class="signature1" src="../images/signature_test.png" alt="Flowers in Chania"></span>
+                            <span><img class="signature1" src="../images/professor_signature.jpeg" alt="Flowers in Chania"></span>
                             <span class="pm-empty-space block underline"></span>
                             <!--<span class="bold block">Name </span>-->
-                            <span class="bold block">Juan Antonio Nuñez Cortés,</span>
+                            <span class="bold block">{{professor}},</span>
                             <span class="bold block">Docente</span>
                             <!--<span class="bold block">Social Security # (last 4 digits)</span>-->
                         </div>
@@ -65,13 +67,13 @@
 
 
             <div class="middleContent">
-            <img src="../images/logo_universidad_acreditacion.jpg" alt="Flowers in Chania">
-            <img id="logo_pdi" src="../images/logo.jpeg" alt="Flowers in Chania">
+            <img id="logo_ud" src="../images/logo_universidad_acreditacion.jpg" alt="Flowers in Chania">
+            <img id="logo_pdi" src="../images/logoX.jpeg" alt="Flowers in Chania">
             <img id="logo_bi" src="../images/Logo Bienestar.png" alt="Flowers in Chania">
             </div>
 
             <div>
-                <span id="number" class"sans">DOCUMENT No {{cont}} </span>
+                <span id="number" class"sans">ACREDITACIÓN No. {{cont}} </span>
             </div>
 
         </div>
