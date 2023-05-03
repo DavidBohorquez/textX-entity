@@ -49,7 +49,7 @@ body {
   opacity: 0.9;
   /*border: 1px solid;*/
   position: absolute;
-  top: -24px;
+  top: -28.5px;
   right: 85px;
 }
 
@@ -62,7 +62,7 @@ body {
     vertical-align: middle;
     /*box-shadow: 0 0 5px rgba(0, 0, 0, .5);*/
     background-image: url('./images/ru_background4.jpg');
-    background-position: -40px -80px;
+    background-position: -42px -80px;
 }
 
 .logo {
@@ -76,10 +76,17 @@ body {
     font-size: 48px;
     margin: 20px;
 }
+
 .assignment {
-    margin: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.assignment1 {
+    margin-bottom: 20px;
     font-size: 15px;
 }
+
 .person {
     border-bottom: 2px solid black;
     font-size: 45px;
@@ -90,8 +97,8 @@ body {
 }
 
 .id {
-    display:inline-block; 
-    padding:0px; 
+    display:inline-block;
+    padding:0px;
     margin:0px;
     border: 0;
     font-size: 20px;
@@ -119,7 +126,7 @@ body {
 .bold {
     font-weight: bold;
   }
-  
+
   .block {
     display: block;
   }
@@ -135,43 +142,43 @@ body {
   .cursive {
     font-family: 'Pinyon Script', cursive;
   }
-  
+
   .sans {
     font-family: 'Open Sans', sans-serif;
   }
-  
+
   .bold {
     font-weight: bold;
   }
-  
+
   .block {
     display: block;
   }
-  
+
   .underline {
     border-bottom: 1px solid #777;
     padding: 5px;
     margin-bottom: 5px;
   }
-  
+
   .margin-0 {
     margin: 0;
   }
-  
+
   .padding-0 {
     padding: 0;
   }
-  
+
   .pm-empty-space {
     height: 40px;
     width: 100%;
   }
-  
+
   body {
     padding: 20px 0;
     background: #ccc;
   }
-  
+
   .pm-certificate-container {
     position: relative;
     width: 800px;
@@ -181,7 +188,7 @@ body {
     color: #333;
     font-family: 'Open Sans', sans-serif;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);}
-    
+
     .pm-certificate-container.outer-border {
       width: 794px;
       height: 594px;
@@ -192,7 +199,7 @@ body {
       margin-top:-297px;
       border: 2px solid #fff;
     }
-    
+
     .pm-certificate-container.inner-border {
       width: 730px;
       height: 530px;
@@ -203,7 +210,7 @@ body {
       margin-top:-265px;
       border: 2px solid #fff;
     }
-  
+
     .pm-certificate-container.pm-certificate-border {
       position: relative;
       width: 720px;
@@ -216,7 +223,7 @@ body {
       margin-left: -360px;
       top: 50%;
       margin-top: -260px;}
-  
+
       .pm-certificate-container.pm-certificate-border.pm-certificate-block {
         width: 650px;
         height: 200px;
@@ -226,28 +233,28 @@ body {
         top: 70px;
         margin-top: 0;
       }
-  
+
       .pm-certificate-container.pm-certificate-border.pm-certificate-header {
         margin-bottom: 10px;
       }
-  
+
       .pm-certificate-container.pm-certificate-border.pm-certificate-title {
         position: relative;
         top: 40px;}
-  
+
         .pm-certificate-container.pm-certificate-border.pm-certificate-title h2 {
           font-size: 34px !important;
         }
-      
-  
+
+
       .pm-certificate-container.pm-certificate-body {
         padding: 20px;}
-  
+
         .pm-certificate-container.pm-certificate-body.pm-name-text {
           font-size: 20px;
         }
-      
-  
+
+
       .pm-certificate-container.pm-earned {
         margin: 15px 0 20px;}
         .pm-certificate-container.pm-earned.pm-earned-text {
@@ -256,8 +263,8 @@ body {
         .pm-certificate-container.pm-earned.pm-credits-text {
           font-size: 15px;
         }
-      
-  
+
+
       .pm-certificate-container.pm-course-title {}
         .pm-certificate-container.pm-course-title.pm-earned-text {
           font-size: 20px;
@@ -265,16 +272,16 @@ body {
         .pm-certificate-container.pm-course-title.pm-credits-text {
           font-size: 15px;
         }
-      
-  
+
+
       .pm-certificate-container.pm-certified {
         font-size: 12px;}
-  
+
         .pm-certificate-container.pm-certified.underline {
           margin-bottom: 5px;
         }
-      
-  
+
+
       .pm-certificate-container.pm-certificate-footer {
         width: 650px;
         height: 100px;
@@ -293,5 +300,3 @@ body {
         color: white;
         opacity: 0.5;
       }
-    
-  
