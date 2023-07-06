@@ -28,7 +28,7 @@ def main(debug=False):
         lstrip_blocks=True)
 
     # Load template
-    template = jinja_env.get_template('certificado.template')
+    template = jinja_env.get_template('certificado.template.html')
 
     lista_certificados = [x.split(",") for x in open("certificados1.txt",encoding='utf-8-sig').readlines()]
     print(lista_certificados[0])
@@ -47,7 +47,7 @@ def main(debug=False):
     for entity in lista_certificados[0:1]:
         print(entity[0])
     '''
-    
+
     for entity in lista_certificados:
         # For each entity generate java file
         with open(join(srcgen_folder,
@@ -61,7 +61,7 @@ def main(debug=False):
             html_path=f'./certificados_generados/{filename}.html'
             print("###", html_path)
             print(f"Now converting... ")
-            pdf_path = f'./certificados_generados/{filename}.pdf'    
+            pdf_path = f'./certificados_generados/{filename}.pdf'
             html2pdf(html_path, pdf_path)
             '''
         cont+=1
