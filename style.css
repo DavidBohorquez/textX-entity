@@ -16,7 +16,8 @@ body {
 .middleContent > img {
     /* Display them as inline-blocks; */
     display: inline-block;
-    width:34%;
+    padding-top: 20px;
+    width:100%;
     height:auto;
 }
 
