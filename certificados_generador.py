@@ -58,7 +58,7 @@ def main(debug=False):
             '''
             filename = str(cont) +' '+ entity[0].capitalize()
             print("###", filename)
-            html_path=f'./certificados_generados/{filename}.html'
+            html_path = f'./certificados_generados/{filename}.html'
             print("###", html_path)
             print(f"Now converting... ")
             pdf_path = f'./certificados_generados/{filename}.pdf'

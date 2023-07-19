@@ -3,8 +3,21 @@
       <link rel="stylesheet" type="text/css" href="../style.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </head>
-    <body>
-        <div class="container" style="width:970px;">
+    <body style="z-index: 9; position: fixed; width: 11in; height: 8.5in; background: #fff;">
+
+        <img
+            src="../images/Escudo_left.png"
+            alt="escudo-left"
+            class="escudo-left"
+        >
+
+        <img
+            src="../images/Escudo_right.png"
+            alt="escudo-right"
+            class="escudo-right"
+        >
+
+        <div class="container" style="width: 100%; z-index: 10; position: relative;">
 
             <!--<div class="middleContent">
             <img src="../images/logo.jpeg" alt="Flowers in Chania">
@@ -43,11 +56,10 @@
             </div>
 
             <div class="reason">
-                Quien ha participado como asistente en los Cursos de Refuerzo,
+                Quien ha participado como asistente a los Cursos de Refuerzo,
                 en el marco del Programa Institucional para el Desarrollo
-                Integral y la Graduación Oportuna - PDI, los cuales se
-                realizaron del 14 de Junio al 11 de julio del 2023 en Bogotá,
-                Colombia.
+                Integral y la Graduación Oportuna, que se realizaron del 14 de
+                Junio al 11 de julio del 2023 en Bogotá D.C., Colombia.
             </div>
 
             <!-- <div class="reason">
@@ -59,14 +71,14 @@
             <div class="col-xs-12">
                 <div class="row">
                     <div class="pm-certificate-footer">
-                        <div class="col-xs-4">
+                        <div class="col-xs-3">
                             <!-- LEAVE EMPTY -->
                         </div>
-                        <div class="col-xs-4 pm-certified col-xs-4 text-center">
+                        <div class="pm-certified col-xs-6 text-center">
                             <!--<span class="pm-credits-text block sans">Buffalo City School District</span>-->
-                            <span><img class="signature" src="../images/DigitalFJOSE-01.png" alt="Flowers in Chania"></span>
+                            <!-- <span><img class="signature" src="../images/DigitalFJOSE-01.png" alt="Flowers in Chania"></span> -->
                             <span class="pm-empty-space block underline"></span>
-                            <span class="bold block">PhD. José Ignacio Palacios Osma, Director</span>
+                            <span class="bold block" style="font-size: 15px;">PhD. José Ignacio Palacios Osma, Director</span>
                         </div>
                         <!-- <div class="col-xs-4 pm-certified col-xs-4 text-center"> -->
                             <!--<span class="pm-credits-text block sans">Date Completed</span>-->
@@ -104,10 +116,12 @@
                 >
             </div>
 
-            <div>
-                <span id="number" class"sans">ACREDITACIÓN No. {{cont}} </span>
-            </div>
 
         </div>
+        <span
+            id="number"
+            class="sans"
+            style="color: #fff;">
+            ACREDITACIÓN No. {{cont}} </span>
     </body>
 </html>
